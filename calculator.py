@@ -26,6 +26,8 @@ def divide(a, b):
 def power(a, b):
     """返回 a 的 b 次方"""
     return a ** b
+
+
 def modulo(a, b):
     """返回 a 除以 b 的余数，除数为 0 时抛出 ValueError"""
     if b == 0:
@@ -45,7 +47,7 @@ if __name__ == "__main__":
     print("10 / 4 =", divide(10, 4))
     print("2 ^ 10 =", power(2, 10))
     print("10 % 3 =", modulo(10, 3))
-    print("4 和 6 的平均值 =", average(4, 3))
+    print("4 和 3 的平均值 =", average(4, 3))
     try:
         divide(1, 0)
     except ValueError as e:
