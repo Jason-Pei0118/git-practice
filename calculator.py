@@ -35,7 +35,7 @@ def modulo(a, b):
 
 def average(a, b):
     """返回两个数的平均值"""
-    return (a + b) // 2
+    return (a + b) / 2
 
 
 if __name__ == "__main__":
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     print("10 / 4 =", divide(10, 4))
     print("2 ^ 10 =", power(2, 10))
     print("10 % 3 =", modulo(10, 3))
-    print("4 和 6 的平均值 =", average(4, 6))
+    print("4 和 6 的平均值 =", average(4, 3))
     try:
         divide(1, 0)
     except ValueError as e:
