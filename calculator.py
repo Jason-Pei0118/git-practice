@@ -23,11 +23,17 @@ def divide(a, b):
     return a / b
 
 
+def power(a, b):
+    """返回 a 的 b 次方"""
+    return a ** b
+
+
 if __name__ == "__main__":
     print("3 + 5 =", add(3, 5))
     print("10 - 4 =", subtract(10, 4))
     print("3 * 5 =", multiply(3, 5))
     print("10 / 4 =", divide(10, 4))
+    print("2 ^ 10 =", power(2, 10))
     try:
         divide(1, 0)
     except ValueError as e:
